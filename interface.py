@@ -36,7 +36,7 @@ def abrir_janela():
     botao_descriptografar.pack(pady=10)
     
     # Carregar a imagem usando Pillow
-    img = Image.open(R"C:\Users\nicko\OneDrive\Área de Trabalho\FIAP\Projetos\VsCode - Python\Projetos\sistema-cript\image.jpg")  # Certifique-se de que a imagem "imagem.png" está no mesmo diretório
+    img = Image.open("image.jpg")  # Certifique-se de que a imagem "imagem.png" está no mesmo diretório
     img = img.resize((500, 250), Image.Resampling.LANCZOS)  # Ajusta o tamanho da imagem
     img_tk = ImageTk.PhotoImage(img)
 

@@ -12,6 +12,10 @@ Explicação:
 
 -Os arquivos são deletados, restando apenas o arquivo original/descriptografado
 
+Observação:
+
+Caso você rode o sistema, e ele já criptografou os arquivos, porém você fehcar e rodar de novo, uma nova "key" será gerada, logo aqueles arquivos serão "perdidos"
+
 Menções Honrosas:
 
 -Fizemos uma menção honrosa ao jogo popular GTA V, ao iniciar o sistema, aparecerá "WASTED!"
